@@ -8,7 +8,6 @@ def island_perimeter(grid):
     """
     Args:
     grid (list): list of list of integers
-    
     Returns:
     return the perimeter of the island described in grid
     """
@@ -16,7 +15,7 @@ def island_perimeter(grid):
     height = len(grid)
     edges = 0
     size = 0
-    
+
     for i in range(height):
         for j in range(width):
             if grid[i][j] == 1:
